@@ -8,12 +8,12 @@ body {
         width: 200px;
         background-color:lightblue;
       }
-      li a {
+    li a {
         display: block;
         padding: 8px 10px;
         text-decoration: none;
       }
-      li a:hover {
+    li a:hover {
         background-color:#3877a7;
       }
     h1 {

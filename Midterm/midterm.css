@@ -1,6 +1,32 @@
 body {
-    background-color: #4e1528;
-    
+    text-align: center;
+    background-color:rgb(230, 220, 182);
+    margin: 0
+}
+.topnav {
+    display: flex;
+    font-size:25px;
+    justify-content:center;
+    gap:50px;
+    padding: 0.5em;
+    background-color: #cb80a7;
 }
 
-/*I was choosing color palettes :) */
+.topnav a{
+    font-family: cursive;
+    color:beige
+}
+
+a:link, a:visited {
+    position: center;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:underline pink 2px;
+    color: pink;
+}
+
+h1{
+    color:palevioletred;
+}

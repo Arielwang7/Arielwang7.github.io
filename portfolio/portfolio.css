@@ -30,9 +30,9 @@ body {
     p {
         color: rgb(19, 26, 102); font-size:15px; font-family: serif;
     }
-    a:link,
-    a:visited {
+    a:link, a:visited {
         color: #4b2607;
+        position: center;
     }
     a:hover {
         text-decoration:underline wavy rgb(65, 28, 6) 2px;

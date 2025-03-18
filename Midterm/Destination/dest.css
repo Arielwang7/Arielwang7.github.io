@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 0;
+}
+
+.polaroid {
+  width: 260px;
+  margin: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+  border: 10px solid rgb(0, 0, 0);
+  border-bottom-width: 45px;
+}
+
+.polaroid a {
+  position: absolute;
+  bottom: 14px;
+  font-size: 25px;
+  width: 280px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+

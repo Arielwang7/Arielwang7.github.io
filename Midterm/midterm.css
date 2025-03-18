@@ -3,30 +3,143 @@ body {
     background-color:rgb(230, 220, 182);
     margin: 0
 }
+.logo {
+    margin-left: 0;
+}
+
 .topnav {
     display: flex;
-    font-size:25px;
-    justify-content:center;
-    gap:50px;
+    font-size:20px;
+    justify-content:space-between;
+    gap:40px;
     padding: 0.5em;
     background-color: #cb80a7;
 }
-
-.topnav a{
+.topnav a {
     font-family: cursive;
-    color:beige
+    color:beige;
+    padding: 12px;
 }
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 
+}
+.links a{
+    margin-left: 50px;
+}
 a:link, a:visited {
-    position: center;
     text-decoration: none;
 }
 
-a:hover {
+.links a:hover {
     text-decoration:underline pink 2px;
     color: pink;
 }
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: row;
+}
+.image img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover; /* keeps the aspect ratio, but resized to fit the dimensions */
+    border-radius: 50%;
+}
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: fill;
+    max-width: 1000px;
+    text-align: left;
+}
 
-h1{
-    color:palevioletred;
+.text h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.text p {
+    font-size: 25px;
+    color: #555;
+}
+
+.intro {
+    height: 1000px;
+    display: flex;
+    text-align: row;
+}
+.intro h2 {
+    padding: 10px;
+}
+.intro1 {
+    border: #555 dotted;
+    margin: 200px 0px 0px 100px; /*top, right, bottom, left*/
+    width: 400px;
+    height: 600px;
+}
+.intro2 {
+    border: #555 dotted;
+    margin: 100px 0px 50px 80px;
+    width: 400px;
+    height: 300px;
+}
+.intro3 {
+    border:#555 dotted;
+    margin: 50px 0px 50px 80px;
+    width: 350px;
+    height: 600px;
+}
+.introo {
+    text-align: column;
+    height: 1000px;
+}
+.intro4 {
+    border: #555 dotted;
+    margin: 30px 0px 0px 80px;
+    width: 400px;
+    height: 500px;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    overflow: auto;
+    border: none;
+    outline: none;
+
+    color: beige;
+    padding: 0.5em;
+    margin:1px 0px 0px 50px;
+    background-color: inherit;
+    font-family: cursive;
+
+}
+.links a:hover, .dropdown:hover .dropbtn {
+    text-decoration:underline pink 2px;
+    color: pink;
+}
+.dropdown-content {
+    display:none;
+    position:fixed; /* positioned relative to viewport, so it always stays the same place no matter what*/
+    justify-content: center;
+    background-color:lightblue;
+    min-width: 30px;
+    box-shadow:rgba(0,0,0,0.2) 0px 0px 30px 0px;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    display:block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color:aquamarine;
+}
+.dropdown:hover .dropdown-content {
+    display:block;
 }

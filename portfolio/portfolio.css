@@ -35,7 +35,8 @@ body {
         position: center;
     }
     a:hover {
-        text-decoration:underline wavy rgb(65, 28, 6) 2px;
-        color: #3877a7;
+        text-decoration:underline rgb(65, 28, 6) 2px;
+        background-color: #3877a7;
+
     }
 }
